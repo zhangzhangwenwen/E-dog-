@@ -154,9 +154,9 @@
 	    setCookie("shoplist",JSON.stringify(arr));
 		var f = confirm("是否继续购买?确定--继续购买，取消---去购物车结算");
 	    if( !f ){
-			location.href = "http://127.0.0.1/project/shop_cart.html";
+			location.href = "shop_cart.html";
 	    }else{
-			location.href = "http://127.0.0.1/project/index.html";
+			location.href = "index.html";
 	    }
 
     })
