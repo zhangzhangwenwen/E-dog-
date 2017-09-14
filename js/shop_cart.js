@@ -22,7 +22,7 @@ $("#header_shop_cart").load("public_header.html #header",function(){
 	   	   	  setCookie("password","",-1)
 	   	   	  setCookie("username","",-1)
 	   	   	  setCookie("telenumber","",-1)
-	   	   	  location.href="http://127.0.0.1/project/register.html"
+	   	   	  location.href="register.html"
 	   	   })
 	   }
 		
@@ -38,7 +38,7 @@ $("#header_shop_cart").load("public_header.html #header",function(){
 			if(!account){
 				alert("请先注册并登陆")
 			}else{
-			  location.href="http://127.0.0.1/project/order.html"	
+			  location.href="order.html"	
 			}
 		}
 	})
