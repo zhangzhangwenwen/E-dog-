@@ -1,0 +1,96 @@
+	section {
+				width: 900px;
+				height: 550px;
+				background: #f5f5f5;
+				margin: 0 auto;
+			}
+			
+			section p img {
+				float: left;
+				margin-left: 20px;
+				margin-top: 10px;
+			}
+			
+			section p {
+				line-height: 62px;
+				height: 62px;
+			}
+			
+			section h3 {
+				padding-left: 50px;
+				padding-top: 10px;
+				width: 766px;
+				height: 62px;
+				border: 1px #ddd solid;
+				margin: 10px auto;
+				background: #ffffeb;
+			}
+			
+			section h3 button {
+				width: 42px;
+				height: 26px;
+				background: #f7fbfb;
+				border: 1px #eee solid;
+				margin-left: 20px;
+			}
+			
+			section h3 input {
+				height: 20px;
+			}
+			
+			#should_pay {
+				float: right;
+				margin-right: 30px;
+			}
+			
+			#should_pay em {
+				font-style: normal;
+				color: #ff5d5b;
+				font-size: 20px;
+			}
+			
+			section .section_inner {
+				width: 816px;
+				height: 316px;
+				border: 1px #eee solid;
+				background:#ffffff;
+				margin:0 auto;
+			}
+			
+			section .section_inner ol{
+				display:flex;
+				
+				border-bottom:1px green solid;
+				margin-top:40px;
+				height:37px;
+			}
+			section .section_inner ol li{
+				background:#f7f7f7;
+				font-size:14px;
+				line-height: 37px;
+				text-align: center;
+				margin:0px 10px;
+				width:132px;
+				margin-left: 20px;
+			}
+			section .section_inner ol li:hover{
+				margin-top:-1px;
+				background:#fff;
+				border:1px green solid;
+				height:38px;
+				border-bottom:none;
+				border-radius:5px 5px 0px 0px;
+			}
+			
+			
+			section .section_inner ul{
+				
+				overflow: hidden;
+				margin-top:20px;
+				
+			}
+			section .section_inner .bank li{
+				width:171px;
+				height:71;
+				margin-left:18px;
+			}

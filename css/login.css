@@ -1,0 +1,40 @@
+header{height:120px;}
+            header img{margin-left:100px;height:120px;}
+			header div{float:right;margin:50px 115px 0px 0px;}
+			header a{font-size:14px;}
+			header a:hover{color:blue;}
+		section{height:628px;background:url(../img/log1.jpg) no-repeat;position:relative;}
+			section form{width:530px;background:#fff;position:absolute;right:80px;top:70px;}
+			section .login_left{width:306px;border-right:1px #eee solid;float:left;padding:30px;}
+			section .login_left ul li{float:left;width:148px;height:66px;text-align:center;border-bottom:1px #eee solid;line-height:66px;font-size:15px;}
+		    section .login_left ul li:first-child{border-bottom:1px solid green;}
+			section .login_left .popular_login input[type="text"]{background:url(../img/ico.png);width:255px;height:42px;border:1px #eee solid;}
+			section .login_left .popular_login input:first-child{background-position-y:16px;background-position-x: 15px;margin-top:20px;}
+			section .login_left .popular_login input:nth-child(2){background-position-y:-16px;background-position-x: 15px;margin-top:20px;}
+			section .login_left .tele_login input[type="text"]{width:255px;height:37px;background:url(../img/ico2.png) no-repeat;border:1px #eee solid;}
+			section .login_left .tele_login #telenumber{margin-top:20px;background-position-x: 15px;background-position-y: -31px;}
+			section .login_left .tele_login #checkname{width:175px;margin-top:20px;background-position-x: 15px;background-position-y: -60px;}
+			section .login_left .tele_login #movename{width:175px;margin-top:20px;background-position-x: 15px;}
+			section .login_left .popular_login p a{float:right;margin-top:20px;}
+			section .login_left .popular_login p {height:37px;}
+			section .login_left .tele_login p a{float:right;margin-top:20px;}
+			section .login_left .tele_login p {height:37px;}
+			section .login_left .tele_login p input{margin-top:20px;}
+			section .login_left  #check{float:left}
+			section .login_left  #auto_logo{float:left;margin-top:20px;margin-left:6px;}
+			section .login_left #btn{width:295px;height:37px;margin-top:25px;background:greenyellow;border:none;font-size:20px;color:white;border-radius:10px;}
+			section .login_left .login_bottom p{height:46px;line-height:46px;}
+			section .login_left .login_bottom ol a{display:block;width:18px;height:18px;float:left;margin-right:20px;}
+			section .login_left .login_bottom ol a{background:url(../img/ico.png) no-repeat;}
+			section .login_left .login_bottom ol li:nth-child(1) a{background-position-y: -142px;}
+			section .login_left .login_bottom ol li:nth-child(2) a{background-position-y: -85px;}
+			section .login_left .login_bottom ol li:nth-child(3) a{background-position-y: -170px;}
+			
+			section .login_right{width:163px;background:url(../img/logoerweima.jpg)  no-repeat 32px 125px;text-align:center;float:left;}
+			section .login_right p{margin-top:230px;}
+			section .login_right p a{color:red;}
+			#yanzheng{display:block;width:80px;height:37px;position:absolute;top:177px;left:246px;border:1px black solid;}
+			#dongtai{display:block;width:80px;height:37px;position:absolute;background:#fff;text-align:center;color:black;line-height:37px;top:56px;left:0px;border:1px greenyellow solid;border-radius:10px;}
+			#yanzheng img{width:80px;height:37px;}
+			
+

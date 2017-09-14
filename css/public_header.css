@@ -1,0 +1,25 @@
+*{margin:0;padding:0;}
+body{font-family: "微软雅黑";}
+header{height:28px;background:#f5f5f5;}
+ul li{list-style:none;}
+ol li{list-style: none;}
+ul li{float:left;margin-right:14px;}
+.header_left{float:left}
+.header_right{float:right}
+#header{overflow: hidden;}
+#header a{text-decoration:none;color:black;font-size:11px;line-height: 28px;}
+#header a:hover{color:green;}
+#search a{text-decoration:none;color:black;font-size:11px;}
+.header_left img{margin-left:50px;line-height:28px;}
+.header_left a{margin-left:20px;}
+.header_right .advice a{color:red;}
+.search{height:112px;background:url(../img/epetlogo.jpg) no-repeat -20px;overflow: hidden;}
+.search .intro li a{color:#459d36;line-height:112px;}
+.search .intro{margin-left:180px;height:112px;float:left;}
+.search_box{float:left;margin-top:34px;margin-left:50px;}
+.search_box input[type="text"]{width:404px;height:33px;border:2px #71c876 solid;float:left;}
+.search_box input[type="submit"]{width:75px;height:37px;background:#71c876;border:none;}
+.hot_search{margin-top:10px;}
+.hot_search li{border-right:2px #d799d7 solid;padding-right:10px;height:14px;line-height:14px;}
+.tele img{margin:40px 0px 0px 30px;}
+.tele .shopping-cart{width:130px;height:39px;background:url(../img/shopping-cart.gif);float:right;line-height:39px;text-align:center;margin:35px 20px 0px 0px;}

@@ -1,0 +1,28 @@
+header{height:120px;border-bottom:1px #ddd solid;}
+            header .logo_pet{margin-left:100px;height:120px;}
+            header .dot{margin-left:-30px;}
+			header div{float:right;margin:50px 115px 0px 0px;}
+			header a{font-size:14px;color:blue;margin-left:10px;}
+		section{height:587px;border-bottom: 1px #ddd solid;overflow:hidden}	
+		section .register{width:680px;height:490px;margin:55px auto 0px;position: relative;}
+		section .register p{width:680px;height:50px;margin-bottom:10px;position: relative;}	
+		section .register p input[type="text"]{height:50px;width:415px;padding-left:10px;border-radius:5px;border:none;border:1px #eee solid;}	
+		section .register p .tixing{float:left;font-size:16px;width:98px;height:50px;text-align:right;line-height:50px;}
+		section .register p	input[type="submit"]{width:410px;height:50px;margin-left:100px;font-size:20px;color:white;border:none;background:#EEE;border-radius: 5px;}
+		section .register p	input[type="checkbox"]{float:left;margin-left:100px;}
+		section .register .remind{display:none;width:168px;height:50px;background:#fff3d9;position:absolute;left:530px;top:0px;text-align: center;line-height: 50px;color:#f37f68}
+		#box{margin-bottom:10px;margin-left:100px;}
+		#box span{width:80px;height:20px;display: inline-block;background: #ddd;margin-right: 3px;font-size: 18px;text-align: center;color:white;font-size:12px;line-height: 20px;}
+		#message_getnumber{width:254px;height:50px;}
+		#txt_getnumber{width:200px;height:50px;}
+		#m_getnumber{display:block;width:148px;height:50px;background:#fff;position: absolute;border-radius:5px;font-size: 16px;border:1px greenyellow solid;line-height:50px;text-align: center;right:155px;top:120px;}
+		#m_getnumber:hover{background:greenyellow}
+		#getnumber,#changenumber{display:block;width:102px;height:50px;background:#fff;border:1px #eee solid;position: absolute;}
+		#changenumber{background:url(img/change.jpg) no-repeat 10px 18px;top:60px;right:155px;font-size: 16px;text-align: center;line-height: 50px;border-radius:5px;}
+		#getnumber{border-radius:5px;top:60px;left:315px;}
+		.footer{height:118px;}
+		.footer ul{width:204px;margin:70px auto 10px;overflow: hidden;}
+		.footer ul li{float:left;}
+		.footer ul li a:hover{color:blue;}
+		.footer p{text-align: center;}
+		

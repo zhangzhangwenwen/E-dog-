@@ -1,0 +1,33 @@
+body{height:100%;}
+			#order_nav{overflow: hidden;height:130px;}
+			#order_nav .f1{float: left;font-size:22px;line-height:130px;}
+			.nav_right{overflow: hidden;position: relative;height:20px;margin-top:46px;}
+			.nav_right .c_green{height:10px;width:10px;border:2px #3ca02c solid;border-radius:50%;}
+			.nav_right .c_gray{height:10px;width:10px;border:2px #ddd solid;border-radius:50%;}
+			.nav_right>div{float:left;position: absolute;}
+			.nav_right .l_green{width:130px;height:1px;border-bottom:2px #3ca02c solid;position: absolute;}
+		    .nav_right .l_gray{width:130px;height:1px;border-bottom:2px #DDD solid;position: absolute;}
+		    .nav_right .c_gray{right:61px;}
+		    .nav_right .c_green_r{right:205px;}
+		    .nav_right .c_green_l{right:346px;}
+		    .nav_right .l_gray{right:75px;top:5px;}
+		    .nav_right .l_green{right:217px;top:5px;}
+		    .nav_right_txt{height:20px;overflow: hidden;font-size:12px;color:#3ca02c;position: relative;}
+		    .nav_right_txt span{position: absolute;}
+		    .nav_right_txt .p3{right:61px;}
+		    .nav_right_txt .p2{right:180px;}
+		    .nav_right_txt .p1{right:330px;}
+		    .order_section{height:250px;}
+		    .order_section img{margin-left:50px;}
+		    .order_section #return{text-decoration: none;font-size:12px;color:#c5252f}
+		    .order_section .order_inner{text-align: center;}
+		    .order_section .order_inner p{margin-top:40px;}
+		    .order_section .order_inner .order_button{width:140px;height:40px;background:#4cb304;color:white;text-align: center;line-height:40px;margin: 45px auto;}
+		    .order_information{width:714px;height:100%;position: absolute;top:0;left:318px;background:#fff;}
+		    .order_information .order_title{font-size:18px;height:42px;line-height:42px;border-bottom:1px #ddd solid;}
+		    .order_information>div{font-size:12px;}
+		    .order_information>div p{margin-left:60px;margin-bottom:12px;margin-top:22px;}
+		    .order_information>div span{float:left;width:90px;}
+		    .order_information .get_name input{height:30px;}
+		    .order_information .save_address{width:142px;height:35px;background:#36cb94;color:white;text-align:center;line-height:35px;font-size:16px;position: absolute;bottom:100px;left:190px;}
+		    .order_information .cha{width:30px;height:30px;float: right;border:1px #eee solid;border-radius:50%;margin-right:50px;}
