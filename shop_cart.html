@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/public_header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public_footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="cookie.js"></script>
+        <script src="js/public_header.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/short_cart.css"/>
+		
+	</head>
+	<body>
+		<div id="header_shop_cart"></div>
+		<div id="header_s">
+			<img src="img/epetlogo.jpg"/><span>购物车</span>
+			<div class="shop_search_box">
+				<form>
+					<input type="text">
+					<input type="submit" value="搜索">
+				</form>
+			</div>
+		</div>
+		<section class="shop_cart_choose">
+			<ul>
+				<li><a href="#" style="color:red">购物车&nbsp;<span id="shop_count">0</span></a></li>
+				<li><a href="#">我的收藏&nbsp;<span id="collect_count">0</span></a></li>
+				<li><a href="#">我购买过&nbsp;<span>0</span></a></li>
+				<li><a href="#">最近浏览&nbsp;<span>0</span></a></li>
+			</ul>
+			<div class="destination">送货至：
+				<select>
+					<option>重庆市渝中区</option>>
+				</select>
+			</div>
+		</section>
+		<div class="shop_cart_nav">
+			<div id="move"><p>▲</p></div>
+		</div>
+		
+		<div class="shop_cart_if">
+			<div class="shop_list">
+				<!--'<div class="shop-item clearfix">'+
+						'<p><input type="checkbox" class="ck"/></p>'+
+						'<p><img src="img/'+ shopinfo.src +'" alt="" /></p>'+
+						'<p class="good_introduce">'+ shopinfo.name +'</p>'+
+						'<p class="add_good" '+
+							'data-id="'+ shopinfo.id +'" '+
+							'data-price="'+ shopinfo.price +'" data-count="'+ shopinfo.count +'"'+
+							'data-name="'+ shopinfo.name +'" data-src="'+ shopinfo.src +'"'+
+							'>'+
+							'<span class="updateCount" data-number="1">+</span>'+
+							'<span class="shop-count">'+ shopinfo.count +'</span>'+
+							'<span class="updateCount" data-number="-1">-</span>'+
+						'</p>'+
+						'<p><em class="sumPrice">'+ (shopinfo.count * shopinfo.price) +'元</em></p>'+
+						'<p><i class="delBtn">[删除]</i></p>'+
+						'<p><i class="saveBtn">[收藏]</i></p>'+
+					'</div>';-->
+				
+			   <!--<div class="shop-item clearfix">
+						<p><input type="checkbox" class="ck"/></p>
+						<p><img src="img/chufanggouliang4.jpg"  alt="" /></p>
+						<p class="good_introduce"></p>
+						<p class="add_good" data-price="" data-count="" data-name="" data-src="">
+							<span class="updateCount" data-number="1">-</span>
+							<span class="shop-count">0</span>
+							<span class="updateCount" data-number="-1">+</span>
+						</p>
+						<p><em class="sumPrice">￥</em></p>
+						<p><i class="delBtn">[删除]</i></p>
+						<p><i class="saveBtn">[收藏]</i></p>
+				</div>-->
+			</div>
+			<div id="sum" class="clearfix">
+				<label class="fl">
+					<input id="selectAll" type="checkbox"/>全选
+				</label>
+				<p>总价不含运费<span class="count" id="count">￥0.00</span>
+					<span class="money">去结算<span id="total_count">(0)</span></span>
+				</p>
+			</div>
+		</div>
+		
+	    <div class="my_collect shop_cart_if" style="display: none;">
+	    	<p>商品信息<em>操作</em><span>现价(元)</span></p>
+	    	<!--<div class="collect_inf">
+	    		<img src="img/bg1.jpg" class="f2">
+	    		<h2 class="f2"></h2>
+	    		<div class="collect_inf_right">
+	    			<span id="collect_price">￥</span>
+	    			<span id="add_cart">加入购物车</span>
+	    			<span id="delete">删除</span>
+	    		</div>
+	    	</div>-->
+	    </div>
+		
+		<div id="footer_shop_cart"></div>
+	</body>
+</html>
+<script src="js/shop_cart.js"></script>

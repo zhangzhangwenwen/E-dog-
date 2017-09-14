@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/order_success.css"/>
+		<script src="jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/public_header.css" />
+		<link rel="stylesheet" type="text/css" href="css/public_footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/order.css" />
+	</head>
+
+	<body>
+		<div id="order_submit_header"></div>
+		<div id="order_submit_nav"></div>
+		<section>
+			<p class="p1"><img src="img/duihao.jpg"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恭喜订单提交成功</span><span id="should_pay">应付金额<em>元</em></span></p>
+			<h3><input type="text" placeholder="用户名"><input type="text" placeholder="密码"><button>保存</button></h3>
+			<div class="section_inner">
+				<ol>
+					<li>快捷支付</li>
+					<li>信用快捷</li>
+					<li>余额支付</li>
+					<li>网银支付</li>
+					<li>支付宝、微信</li>
+				</ol>
+				<ul class="bank">
+					<li><img src="img/bank1.jpg"></li>
+					<li><img src="img/bank2.jpg"></li>
+					<li><img src="img/bank1.jpg"></li>
+					<li><img src="img/bank2.jpg"></li>
+					<li><img src="img/bank1.jpg"></li>
+					<li><img src="img/bank2.jpg"></li>
+					<li><img src="img/bank1.jpg"></li>
+					<li><img src="img/bank2.jpg"></li>
+					<li><img src="img/bank1.jpg"></li>
+					<li><img src="img/bank2.jpg"></li>
+					<li><img src="img/bank1.jpg"></li>
+					<li><img src="img/bank2.jpg"></li>
+				</ul>
+			</div>
+		</section>
+		
+		
+		<div id="order_submit_footer"></div>
+	</body>
+
+</html>
+<script>
+	$("#order_submit_header").load("public_header.html #header",function(){
+	   var strr=document.cookie
+	   var crr=strr.split("; ")
+	   for(var i=0;i<crr.length;i++){
+	   	items=crr[i].split("=")
+	   	if(items[0]=="username"){
+	   	      account=items[1]
+	   	}	
+	   }
+	   
+	   if(account){	   	
+	   	$("#login_n").html(account)
+	   	$("#register_n").html("[注销]")
+	   }
+	   
+	   if($("#register_n").html()=="[注销]"){
+	   	   $("#register_n").click(function(){
+	   	   	  setCookie("password","",-1)
+	   	   	  setCookie("username","",-1)
+	   	   	  setCookie("telenumber","",-1)
+	   	   	  location.href="http://127.0.0.1/project/register.html"
+	   	   })
+	   }
+	})
+	$("#order_submit_footer").load("public_footer.html #footer")
+	$("#order_submit_nav").load("order.html #order_nav", function() {
+		$(".c_gray").css("border", "2px #3ca02c solid")
+		$(".l_gray").css("border-bottom", "2px #3ca02c solid")
+	})
+	
+	
+	
+	$(function(){
+	 var strin=document.cookie
+	 var frr=strin.split("; ")
+	   for(var i=0;i<frr.length;i++){
+	   	items=frr[i].split("=")
+	   	if(items[0]=="totalMoney"){
+	   	      money=items[1]
+	   	}	
+	   }
+	$("#should_pay").children().html(money+"元")
+		
+	})
+	
+	
+	
+	
+	
+</script>

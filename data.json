@@ -1,0 +1,510 @@
+{
+	"classify001":{
+		"name" : "进口狗粮",
+		"list" : [
+			{
+				"id" : "import01",
+				"name" : "美国原装进口雅思ARTEMIS中/大型犬配方全期犬粮4磅(1.81kg)",
+				"src" : "jinkougouliang1.jpg",
+				"price" : "138.00",
+				"marketprice":"165.50",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28",
+				 "bsrc":"jinkougouliangB1.jpg",
+				 "solded":"95"
+				 
+			},
+			{
+				"id" : "import02",
+				"name" : "美国原装进口Lucy鸭肉土豆低敏配方全犬粮25磅(11.34kg)",
+				"src" : "jinkougouliang2.jpg",
+				"price" : "690.00",
+				"marketprice":"828.00",
+				"due":"53.13",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4.5_25",
+				"bsrc":"jinkougouliangB2.jpg"
+			},
+			{
+				"id" : "import03",
+				"name" : "【保质期至2017-11-27】加拿大原装进口 Orijen渴望狗粮无谷类幼犬配方狗粮11.4kg",
+				"src" : "jinkougouliang3.jpg",
+				"price" : "1000.00",
+				"marketprice":"1000.00",
+				"due":"58.44",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4",
+				"bsrc":"jinkougouliangB3.jpg",
+				"solded":"95"
+			},
+			{
+				"id" : "import04",
+				"name" : "加拿大原装进口 Orijen渴望狗粮六种鱼肉+美毛专用配方全犬粮 2kg",
+				"src" : "jinkougouliang4.jpg",
+				"price" : "290.00",
+				"marketprice":"320.00",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28",
+				"bsrc":"jinkougouliangB4.jpg",
+				"solded":"95"
+			},
+			{
+				"id" : "import05",
+				"name" : "【保质期至2017-12-19】加拿大原装进口 Orijen渴望狗粮 大型犬幼犬配方狗粮 6kg",
+				"src" : "jinkougouliang5.jpg",
+				"price" : "620.00",
+				"marketprice":"620.00",
+				"due":"35.34",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"6_11.4",
+				"bsrc":"jinkougouliangB5.jpg",
+				"solded":"95"
+			},
+			{
+				"id" : "import06",
+				"name" : "比利时进口 鱼子酱Canine Caviar特殊需求配方犬粮(低敏/减肥/老犬)24磅(10.88kg)",
+				"src" : "jinkougouliang6.jpg",
+				"price" : "688.00",
+				"marketprice":"825.60",
+				"due":"",
+				"num":"203264",
+				"sendplace":"",
+				"weight":"24_4.4_11",
+				"bsrc":"jinkougouliangB6.jpg",
+				"solded":"95"
+			},
+			{
+				"id" : "import07",
+				"name" : "美国原装进口 雅思ARTEMIS火鸡鹰嘴豆配方全犬粮22磅(9.97kg)",
+				"src" : "jinkougouliang7.jpg",
+				"price" : "418.00",
+				"marketprice":"501.60",
+				"due":"32.18",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"22_4_10",
+				"bsrc":"jinkougouliangB7.jpg",
+				"solded":"95"
+			},
+			{
+				"id" : "import08",
+				"name" : "加拿大原装进口 Orijen渴望狗粮无谷类幼犬配方狗粮2kg",
+				"src" : "jinkougouliang8.jpg",
+				"price" : "255.00",
+				"marketprice":"310.00",
+				"due":"19.63",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4",
+				"bsrc":"jinkougouliangB8.jpg",
+				"solded":"95"
+			}
+		]
+	},
+	"classify002":{
+		"name" : "国产狗粮",
+		"list" : [
+			{
+				"id" : "import09",
+				"name" : "优基 益生菌小型成犬粮 2kg",
+				"src" : "guochanggouliang1.jpg",
+				"price" : "75.00",
+				"marketprice":"90.00",
+				"due":"",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28",
+				"solded":"95"
+			},
+			{
+				"id" : "import10",
+				"name" : "优基 益生菌中大型成犬粮 2kg",
+				"src" : "guochanggouliang2.jpg",
+				"price" : "75.00",
+				"marketprice":"90.00",
+				"due":"",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4.5_25",
+				"solded":"84"
+			},
+			{
+				"id" : "import11",
+				"name" : "比瑞吉 健康型天然粮大型犬成犬粮 15kg",
+				"src" : "guochanggouliang3.jpg",
+				"price" : "525.00",
+				"marketprice":"630.00",
+				"due":"58.44",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4",
+				"solded":"5597"
+			},
+			{
+				"id" : "import12",
+				"name" : "比瑞吉 健康型天然粮 小型犬幼犬粮 1.5kg",
+				"src" : "guochanggouliang4.jpg",
+				"price" : "92.00",
+				"marketprice":"110.40",
+				"due":"",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.5_10",
+				"solded":"25543"
+			},
+			{
+				"id" : "import13",
+				"name" : "冠能大型犬幼犬全价犬粮 12kg",
+				"src" : "guochanggouliang5.jpg",
+				"price" : "559.00",
+				"marketprice":"708.00",
+				"due":"",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"2.5_12",
+				"solded":"6590"
+			},
+			{
+				"id" : "import14",
+				"name" : "伯纳天纯 天然低敏 中大型犬 成犬粮 15kg",
+				"src" : "guochanggouliang6.jpg",
+				"price" : "499.00",
+				"marketprice":"599.00",
+				"due":"",
+				"num":"203264",
+				"sendplace":"",
+				"weight":"",
+				"solded":"13569"
+			},
+			{
+				"id" : "import15",
+				"name" : "伯纳天纯 天然低敏 中大型犬 幼犬粮 15kg",
+				"src" : "guochanggouliang7.jpg",
+				"price" : "509.00",
+				"marketprice":"611.60",
+				"due":"",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"",
+				"solded":"33223"
+			},
+			{
+				"id" : "import16",
+				"name" : "[多件优惠] 麦富迪 牛肉双拼系列 贵宾专用牛肉双拼成犬粮 2kg",
+				"src" : "guochanggouliang8.jpg",
+				"price" : "65.00",
+				"marketprice":"72.00",
+				"due":"",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"",
+				"solded":"1678"
+			}
+		]
+	},
+	"classify003":{
+		"name" : "散装狗粮",
+		"list" : [
+			{
+				"id" : "import17",
+				"name" : "美国原装进口 雅思ARTEMIS 中/大型犬配方全期犬粮 4磅(1.81kg)",
+				"src" : "sanzhuanggouliang1.jpg",
+				"price" : "138.00",
+				"marketprice":"165.50",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28"
+			},
+			{
+				"id" : "import18",
+				"name" : "美国原装进口Lucy 鸭肉土豆低敏配方全犬粮 25磅(11.34kg)",
+				"src" : "sanzhuanggouliang2.jpg",
+				"price" : "690.00",
+				"marketprice":"828.00",
+				"due":"53.13",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4.5_25"
+			},
+			{
+				"id" : "import19",
+				"name" : "【保质期至2017-11-27】加拿大原装进口 Orijen渴望狗粮 无谷类幼犬配方狗粮 11.4kg",
+				"src" : "sanzhuanggouliang3.jpg",
+				"price" : "1000.00",
+				"marketprice":"1000.00",
+				"due":"58.44",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4"
+			},
+			{
+				"id" : "import20",
+				"name" : "加拿大原装进口 Orijen渴望狗粮 六种鱼肉+美毛专用配方全犬粮 2kg",
+				"src" : "sanzhuanggouliang4.jpg",
+				"price" : "290.00",
+				"marketprice":"320.00",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28"
+			},
+			{
+				"id" : "import21",
+				"name" : "【保质期至2017-12-19】加拿大原装进口 Orijen渴望狗粮 大型犬幼犬配方狗粮 6kg",
+				"src" : "sanzhuanggouliang5.jpg",
+				"price" : "620.00",
+				"marketprice":"620.00",
+				"due":"35.34",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"6_11.4"
+			},
+			{
+				"id" : "import22",
+				"name" : "比利时进口 鱼子酱Canine Caviar 特殊需求配方犬粮(低敏/减肥/老犬) 24磅(10.88kg)",
+				"src" : "sanzhuanggouliang6.jpg",
+				"price" : "688.00",
+				"marketprice":"825.60",
+				"due":"",
+				"num":"203264",
+				"sendplace":"",
+				"weight":"24_4.4_11"
+			},
+			{
+				"id" : "import23",
+				"name" : "美国原装进口 雅思ARTEMIS 火鸡鹰嘴豆配方全犬粮 22磅(9.97kg)",
+				"src" : "sanzhuanggouliang7.jpg",
+				"price" : "418.00",
+				"marketprice":"501.60",
+				"due":"32.18",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"22_4_10"
+			},
+			{
+				"id" : "import24",
+				"name" : "加拿大原装进口 Orijen渴望狗粮 无谷类幼犬配方狗粮 2kg",
+				"src" : "sanzhuanggouliang8.jpg",
+				"price" : "255.00",
+				"marketprice":"310.00",
+				"due":"19.63",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4"
+			}
+		]
+	},
+	"classify004":{
+		"name" : "处方狗粮",
+		"list" : [
+			{
+				"id" : "import25",
+				"name" : "美国原装进口 雅思ARTEMIS 中/大型犬配方全期犬粮 4磅(1.81kg)",
+				"src" : "chufanggouliang1.jpg",
+				"price" : "138.00",
+				"marketprice":"165.50",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28"
+			},
+			{
+				"id" : "import26",
+				"name" : "美国原装进口Lucy 鸭肉土豆低敏配方全犬粮 25磅(11.34kg)",
+				"src" : "chufanggouliang2.jpg",
+				"price" : "690.00",
+				"marketprice":"828.00",
+				"due":"53.13",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4.5_25"
+			},
+			{
+				"id" : "import27",
+				"name" : "【保质期至2017-11-27】加拿大原装进口 Orijen渴望狗粮 无谷类幼犬配方狗粮 11.4kg",
+				"src" : "chufanggouliang3.jpg",
+				"price" : "1000.00",
+				"marketprice":"1000.00",
+				"due":"58.44",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4"
+			},
+			{
+				"id" : "import28",
+				"name" : "加拿大原装进口 Orijen渴望狗粮 六种鱼肉+美毛专用配方全犬粮 2kg",
+				"src" : "chufanggouliang4.jpg",
+				"price" : "290.00",
+				"marketprice":"320.00",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28"
+			},
+			{
+				"id" : "import29",
+				"name" : "【保质期至2017-12-19】加拿大原装进口 Orijen渴望狗粮 大型犬幼犬配方狗粮 6kg",
+				"src" : "chufanggouliang5.jpg",
+				"price" : "620.00",
+				"marketprice":"620.00",
+				"due":"35.34",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"6_11.4"
+			},
+			{
+				"id" : "import30",
+				"name" : "比利时进口 鱼子酱Canine Caviar 特殊需求配方犬粮(低敏/减肥/老犬) 24磅(10.88kg)",
+				"src" : "chufanggouliang6.jpg",
+				"price" : "688.00",
+				"marketprice":"825.60",
+				"due":"",
+				"num":"203264",
+				"sendplace":"",
+				"weight":"24_4.4_11"
+			},
+			{
+				"id" : "import31",
+				"name" : "美国原装进口 雅思ARTEMIS 火鸡鹰嘴豆配方全犬粮 22磅(9.97kg)",
+				"src" : "chufanggouliang7.jpg",
+				"price" : "418.00",
+				"marketprice":"501.60",
+				"due":"32.18",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"22_4_10"
+			},
+			{
+				"id" : "import32",
+				"name" : "加拿大原装进口 Orijen渴望狗粮 无谷类幼犬配方狗粮 2kg",
+				"src" : "chufanggouliang8.jpg",
+				"price" : "255.00",
+				"marketprice":"310.00",
+				"due":"19.63",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4"
+			}
+		]
+	},
+	"classify005":{
+		"name" : "抢购",
+		"list" : [
+			{
+				"id" : "import33",
+				"name" : "喜乐比SharlovY 鸡肉蔬果配方 幼母犬健康粮1.5kg",
+				"src" : "qianggou1.jpg",
+				"price" : "138.00",
+				"marketprice":"165.50",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28",
+				"bsrc":"qianggouB1.jpg",
+				"solded":"1678"
+				
+			},
+			{
+				"id" : "import34",
+				"name" : "美国原装进口超越Zignature 白鱼配方全犬粮 4磅（1.81kg）",
+				"src" : "qianggou2.jpg",
+				"price" : "690.00",
+				"marketprice":"828.00",
+				"due":"53.13",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4.5_25",
+				"bsrc":"qianggouB2.jpg",
+				"solded":"1678"
+			},
+			{
+				"id" : "import35",
+				"name" : "怡润 鳕鱼蛋黄迷你双味卷狗零食 200g",
+				"src" : "qianggou3.jpg",
+				"price" : "1000.00",
+				"marketprice":"1000.00",
+				"due":"58.44",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4",
+				"bsrc":"qianggouB3.jpg",
+				"solded":"1678"
+			},
+			{
+				"id" : "import36",
+				"name" : "哈格Hugdarling 酸奶钙强效洁齿骨90g",
+				"src" : "qianggou4.jpg",
+				"price" : "290.00",
+				"marketprice":"320.00",
+				"due":"10.62",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"4_28",
+				"bsrc":"qianggouB4.jpg",
+				"solded":"1678"
+			},
+			{
+				"id" : "import37",
+				"name" : "蓝氏 3AMIX 鸭肉狗罐头 375g",
+				"src" : "qianggou5.jpg",
+				"price" : "620.00",
+				"marketprice":"620.00",
+				"due":"35.34",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"6_11.4",
+				"bsrc":"qianggouB5.jpg",
+				"solded":"1678"
+			},
+			{
+				"id" : "import38",
+				"name" : "雷米高 犬用强力液体钙 100ml",
+				"src" : "qianggou6.jpg",
+				"price" : "688.00",
+				"marketprice":"825.60",
+				"due":"",
+				"num":"203264",
+				"sendplace":"",
+				"weight":"24_4.4_11",
+				"bsrc":"qianggouB6.jpg",
+				"solded":"1678"
+			},
+			{
+				"id" : "import39",
+				"name" : "美国原装进口 雅思ARTEMIS 火鸡鹰嘴豆配方全犬粮 22磅(9.97kg)",
+				"src" : "qianggou7.jpg",
+				"price" : "418.00",
+				"marketprice":"501.60",
+				"due":"32.18",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"22_4_10",
+				"bsrc":"qianggouB7.jpg",
+				"solded":"1678"
+			},
+			{
+				"id" : "import40",
+				"name" : "加拿大原装进口 Orijen渴望狗粮 无谷类幼犬配方狗粮 2kg",
+				"src" : "qianggou8.jpg",
+				"price" : "255.00",
+				"marketprice":"310.00",
+				"due":"19.63",
+				"num":"203264",
+				"sendplace":"香港一号仓",
+				"weight":"1.2_2_6_11.4",
+				"bsrc":"qianggouB8.jpg",
+				"solded":"1678"
+			}
+		]
+	}
+
+	
+}

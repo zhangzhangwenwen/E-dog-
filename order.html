@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<link rel="stylesheet" type="text/css" href="css/order.css"/>
+		<script src="jquery-1.11.1.min.js"></script>
+		<script src="cookie.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/public_header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public_footer.css"/>
+	</head>
+	<body>
+		<div id="order_header"></div>
+		<div id="order_nav">
+			<img src="img/epetlogo.jpg" class="f1">
+		    <div class="f1 jiesuan">订单结算</div>
+		    <div class="nav_right">
+		        <div class="c_green c_green_l"></div>
+		        <div class="c_green c_green_r"></div>
+		        <div class="c_gray"></div>
+		        <p class="l_green"></p>
+		        <P class="l_gray"></P>
+		    </div>
+		    <div class="nav_right_txt">
+		    	<span class="p1">购物车</span>
+		    	<span class="p2">提交订单</span>
+		    	<span class="p3">支付</span>
+		    </div>
+		</div>
+		<div class="order_section">
+			<img src="img/youshang.jpg">
+			<a href="http://127.0.0.1/project/shop_cart.html" id="return">返回购物车</a>
+			<div class="order_inner">
+				<p>您还没有地址信息，请先添加地址信息。</p>
+				<div class="order_button">新增收货地址</div>
+				
+			</div>
+			
+		</div>
+		<div class="order_information" style="display: none;">
+		  <p class="order_title">&nbsp;&nbsp;&nbsp;&nbsp;添加收货地址<span class="cha"></span></p>
+		  <div>
+		  	<p class="get_name"><span>*收货人姓名：</span><input type="text" id="my_name"></p>
+		  	<p><span>*所在地区：</span>
+		  		<select id="my_address">
+		  	         <option>-请选择-</option>
+		  	         <option>江苏</option>
+		  		</select>
+		  	</p>
+		  	<p><span>*详细地址：</span><input type="text" id="my_home"></p>
+		  	<p><span>*手机号码：</span><input type="text" id="my_tele"></p>
+		  	 <div class="save_address">保存收货地址</div>
+		  </div>
+			
+			
+		</div>
+		
+		
+		<div id="order_footer"></div>
+	</body>
+</html>
+<script>
+	
+	$("#order_header").load("public_header.html #header",function(){
+		var account=null
+		var strr=document.cookie
+	   var crr=strr.split("; ")
+	   for(var i=0;i<crr.length;i++){
+	   	items=crr[i].split("=")
+	   	if(items[0]=="username"){
+	   	      account=items[1]
+	   	}	
+	   }
+	   
+	   if(account){	   	
+	   	$("#login_n").html(account)
+	   	$("#register_n").html("[注销]")
+	   }
+	   
+	   if($("#register_n").html()=="[注销]"){
+	   	   $("#register_n").click(function(){
+	   	   	  setCookie("password","",-1)
+	   	   	  setCookie("username","",-1)
+	   	   	  setCookie("telenumber","",-1)
+	   	   	  location.href="http://127.0.0.1/project/register.html"
+	   	   })
+	   }
+	})
+	$("#order_footer").load("public_footer.html #footer")
+	
+    
+    $(function(){
+    	var connectIf=getCookie("connectIf")
+    	console.log(connectIf)
+    	if(connectIf.length==0){
+    		$(".order_information").css("display","block")
+    	}else{
+    		$(".order_inner").children("p").html("已有地址")
+    		$(".order_button").html("提交订单")
+    	}
+    })
+    
+    
+    
+    $(".order_button").click(function(){
+    	if($(".order_button").html()=="提交订单"){
+      		location.href="http://127.0.0.1/project/order_success.html"
+    	}else{
+	    	$(".order_information").css("display","block")
+    	}
+    })
+    
+    
+    $(".cha").click(function(){
+    	$(".order_information").css("display","none")
+    })
+
+
+
+   $(".save_address").click(function(){
+   	  var arr=[]
+   	  var _json1={
+   	  	  myname:$("#my_name").val(),
+   	  	  myaddress:$("#my_address").val(),
+   	  	  myhome:$("#my_home").val(),
+   	  	  mytele:$("#my_tele").val()
+   	  }
+   	   
+   	  arr.push(_json1) 
+   	 
+      setCookie("connectIf",JSON.stringify(arr),1)
+    	$(".order_information").css("display","none")
+    	if($("#my_name").val()&&$("#my_address").val()&&$("#my_home").val()&&$("#my_tele").val()){
+		      location.href="http://127.0.0.1/project/order_success.html"
+    	}
+      console.log(document.cookie)
+   })
+
+  
+	
+	
+	
+	
+	
+	
+</script>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script src="jquery-1.11.1.min.js"></script>
+		<script src="cookie.js"></script>
+	</head>
+	<body>
+		<header class="header">
+		  <a href="#"><img src="img/epetlogo.jpg" class="logo_pet"></a><a href="#" class="dot"><img src="img/dot.jpg"></a>
+		  <div>已有帐号<a href="#">登录？</a></div>
+		</header>
+		
+		<section>
+		    <form  onsubmit="return check()" action="http://127.0.0.1/project/login.html" method="post">
+				<div class="register">
+				    <p><span class="tixing">手机号：</span><input type="text" id="tele" placeholder="请输入手机号" name="tele"/><span class="remind">请输入11位电话号码</span></p>
+				    <p><span class="tixing">验证码：</span><input type="text" placeholder="请输入图片内容" id="txt_getnumber"/><span class="remind">请输入4位验证码</span></p>
+				    <p><span class="tixing">短信验证码：</span><input type="text" placeholder="验证码" id="message_getnumber"/><span class="remind">请输入6位短信验证码！</span></p>
+				    <p><span class="tixing">用户名：</span><input type="text" placeholder="用户名" id="uname"  name="uname"/><span class="remind">请输入4-20位用户名</span></p>
+				    <p><span class="tixing">密码：</span><input type="text"  placeholder="密码(8-20位，区分大小写)" id="password" name="upwd"/><span class="remind">请输入8-20位密码</span></p>
+				     <div id="box" style="margin-top: 4px;display: none;"><span id="r">弱</span><span id="z">中</span><span id="q" >强</span></div>
+				    <p><span class="tixing">确认密码：</span><input type="text"  placeholder="确认密码" id="conform" name="confir"/><span class="remind">请输入确认密码</span></p>     
+				    <p><input type="checkbox" checked="checked" id="check_box"/>我已阅读并接受E宠<a href="#">《用户使用协议》</a></p>   
+				    <p><input type="submit" value="立    即     注     册"/></p>
+				    <span id="getnumber"><img src="img/yz1.png"></span>
+				    <span id="changenumber"><a href="#">摇一摇</a></span>
+				    <span id="m_getnumber">获取验证码</span>
+				</div>
+			</form>
+		</section>
+		
+		<div class="footer">
+				<ul>
+					<li><a href="#">E宠商城</a>|</li>
+					<li><a href="#">知识</a>|</li>
+					<li><a href="#">关于我们</a>|</li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<p><a>渝ICP备13005525号-2 渝ICP备10002905 增值电信业务经营许可证：渝B2-20140042 Copright @ 2007-2014 epet.com</a></p>
+		</div>
+	</body>
+</html>
+<script>
+   
+ 	
+   function check(){
+		if(flagTele&&flagName&&flagPas&&flagCon){
+		    if($("#check_box").prop("checked")){
+		      	 setCookie("username",$("#uname").val(),1)
+		      	 setCookie("password",$("#password").val(),1)
+		      	 setCookie("telenumber",$("#tele").val(),1)
+		      	 return true
+		    }
+		}
+      return false
+   }
+   
+   
+   $("input").focus(function(){
+	   $(this).next().css("display","none")
+   })
+   
+   
+    var flagTele=true
+   	$("#tele").blur(function(){
+	   	var regTele=/^\d{11}$/
+	   	var telenumber=$("#tele").val()
+	   	if(!regTele.test(telenumber)){
+	   		flagTele=false
+	      $(this).next().css("display","block")
+	      $(this).css("border","1px solid #fff3d9")
+	   	}else{
+	      $(this).css("border","1px solid #eee")
+	   	}
+   	})
+   	
+    function rand(min,max){
+    	return Math.floor(Math.random()*(max-min+1)+min)
+    }
+// 	$("#changenumber").click(function(){
+// 		index=rand(1,5)
+// 		var html=""
+// 		html=`<img src="img/yz${index}.png">`
+// 		$("#getnumber").html(html)
+// 	})
+   	
+
+   	
+   	
+   	
+   	var flagName=true
+   	$("#uname").blur(function(){
+	   	var regName=/^\w{4,20}$/
+	   	var username=$("#uname").val()
+	   	if(!regName.test(username)){
+	   		flagName=false
+	      $(this).next().css("display","block")
+	      $(this).css("border","1px solid #fff3d9")
+	   	}else{
+	      $(this).css("border","1px solid #eee")
+	   	}
+   	})
+   	
+   	var flagPas=true
+   	var regNum = /^\d+$/;// 纯数字 
+ 	var regLetter = /^[a-z]+$/;//纯字母
+ 	var regChar = /^[!@#$%^&]+$/; //纯特殊字符
+ 	
+ 	var _regNum = /\d+/;
+ 	var _regLetter = /[a-z]+/;
+ 	var _regChar = /[!@#$%^&]+/;
+   			
+   	$("#password").bind({
+   		focus:function(){
+   			$("#box").css("display","block")
+   		},
+   		keyup:function(){
+   			var str=$(this).val()
+   		    
+   		    $("#box span").css("background-color","#eee")
+   			if( str.length < 8|| str.length >20){
+ 				return;
+ 		   }
+	   		if( regNum.test(str) || regLetter.test(str) || regChar.test(str)){//弱
+	 			$("#r").css("background-color","#fc9721")
+	 		}else if( _regNum.test(str) && _regLetter.test(str) && _regChar.test(str) ){ //强
+	 			$("#q").css("background-color","#fc9721")
+	 		}else{ //中
+	 			$("#z").css("background-color","#fc9721")
+	 		}
+   		},
+   		blur:function(){
+   			$("#box").css("display","none")
+   			var regPas=/^\w{8,20}$/
+   			var pass=$(this).val()
+   			if(!regPas.test(pass)){
+   				flagPas=false
+	     		$(this).next().css("display","block")
+	      	    $(this).css("border","1px solid #fff3d9")
+   			}else{
+   				 $(this).css("border","1px solid #eee")
+   			}
+   		},
+   	})
+   	
+   	var flagCon=true
+   	$("#conform").blur(function(){
+   		if($(this).val()!=$("#password").val()){
+   			flagCon=false
+   			$(this).next().css("display","block")
+	      	$(this).css("border","1px solid #fff3d9")
+   		}else{
+   		    $(this).css("border","1px solid #eee")
+   		}
+   	})
+   	
+   	
+   	
+   	
+</script>
